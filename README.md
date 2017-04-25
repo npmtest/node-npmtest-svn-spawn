@@ -1,6 +1,6 @@
 # npmtest-svn-spawn
 
-#### test coverage for  [svn-spawn (v0.1.5)](https://github.com/ddliu/node-svn-spawn)  [![npm package](https://img.shields.io/npm/v/npmtest-svn-spawn.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-svn-spawn) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-svn-spawn.svg)](https://travis-ci.org/npmtest/node-npmtest-svn-spawn)
+#### basic test coverage for  [svn-spawn (v0.1.5)](https://github.com/ddliu/node-svn-spawn)  [![npm package](https://img.shields.io/npm/v/npmtest-svn-spawn.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-svn-spawn) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-svn-spawn.svg)](https://travis-ci.org/npmtest/node-npmtest-svn-spawn)
 
 #### SVN access based on svn cli command
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-svn-spawn/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-svn-spawn/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-svn-spawn/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-svn-spawn/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-svn-spawn/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-svn-spawn/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-svn-spawn/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-svn-spawn/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-svn-spawn/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-svn-spawn/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-svn-spawn/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-svn-spawn/build/coverage.html/index.html)
 
@@ -77,7 +77,8 @@
     "scripts": {
         "test": "./test/init.sh && ./node_modules/.bin/nodeunit test"
     },
-    "version": "0.1.5"
+    "version": "0.1.5",
+    "bin": {}
 }
 ```
 
